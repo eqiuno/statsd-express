@@ -1,0 +1,28 @@
+{
+  "name": "statsd-express",
+  "version": "0.0.5",
+  "description": "an express middleware which send stats data of express's requests to statsd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eqiuno/statsd-express.git"
+  },
+  "keywords": [
+    "statsd",
+    "express",
+    "node"
+  ],
+  "author": "ian",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/eqiuno/statsd-express/issues"
+  },
+  "homepage": "https://github.com/eqiuno/statsd-express",
+  "dependencies": {
+    "lynx": "^0.2.0",
+    "on-finished": "^2.3.0"
+  }
+}
